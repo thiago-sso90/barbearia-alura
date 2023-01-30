@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>contatos - barbearia</title>
+       <link rel="stylesheet" href="resect.css"><!--limpa ttudo que é feito-->
+        <link rel="stylesheet" href="produtos.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+            <h1><img src="logo.png" alt="logo da barbearia"></h1>
+          <nav>
+            <ul>
+                <li><a href="primeirapag.html">inicio</a></li>
+                <li><a href="produtos.html">produtos</a></li>
+                <li><a href="primeirapag.html">contato</a></li>
+               </ul>
+          </nav>
+         </div>
+        </header>
+        <main>
+            <form><!--fazendo um formulario-->
+                <label for="nomesobrenome">Nome e Sobrenome:</label>
+                <input type="text"id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input-padrao"required placeholder="email@dominio.com">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" class="input-padrao"required placeholder="(xx) x xxxx-xxxx">
+
+                <label for="mensagem">Mensagens:</label>
+                <textarea cols="70" rows="10" id="mensagem"></textarea>
+                
+                <fieldset><!--referente-a configuração de um ou mais campos de um assunto especifico-->
+                    <legend>Como prefere o contato?</legend><!--marca um titulo de um grupo de campos-->
+                    <label for="radio-email"><input type="radio" name=contato value="email" id="radio-email" required>Email:</label>
+                    
+                    <label for="radio-telefone"> <input type="radio" name=contato value="telefone" id="radio-telefone">Telefone:</label>
+                   
+                    <label for="radio-whatssap"><input type="radio"name=contato value="Whatssap" id="radio-whatssap">Whatssap:</label>
+                    
+                </fieldset>
+              
+            <fieldset>
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Terde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+             <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                <input type="submit" value="Enviar formulário"class="enviar"><!--significa enviar -->
+
+                  
+
+
+            </form>
+
+            <table>
+                <thead><!--cabeçalho da tabela-->
+                    <tr>
+                        <th>DIA</th>
+                        <th>HORARIO</th>
+                    </tr>
+            </thead>
+            <tbody><!--corpo da tabela-->
+                        <tr>
+                            <td>SEGUNDA</td>
+                            <td>8h ~ 18h</td>
+                        </tr>
+                        <tr>
+                            <td>QUARTA</td>
+                            <td>8h ~ 18h</td>
+                        </tr>
+                        <tr>
+                            <td>SEXTA</td>
+                            <td>8h ~ 18h</td>
+                        </tr>
+                </tbody>
+            </table>
+            
+        </main>
+
+        <footer>
+            <img src="logo-branco.png" alt="logo da barbearia">
+            <p class="copy">&copy; copyright barbearia</p>
+            </footer>
+    </body>
+</html>

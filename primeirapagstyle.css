@@ -1,0 +1,55 @@
+body {
+background-color:#5f5959;
+}
+h1{
+   text-align: center;
+}
+#banner{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+   .titulo-principal{
+      padding-left: 20px;
+   }
+   .titulo-centralizado{
+    text-align: center
+   }
+p{    /* P no inicio do arquivo css significa que as propriedades serão aplicadas em todos os paragrafos */
+   text-align: center;
+}
+   #missao{
+    font-size:20px;
+   }
+   
+em strong{
+    color: rgb(224, 9, 38);
+}
+.itens{
+   font-style:italic
+}
+.beneficios{
+   background: #ffffff;
+   padding: 30px;
+}
+
+ul{
+   display: inline-block;
+   vertical-align: top;
+   width: 20%;
+   margin-right: 15%;
+}
+.imagembene{
+   width: 20%;
+}
+.beneficios:hover{
+   color: darkblue;
+}
+img :hover{
+   color:  darkblue;
+   text-decoration: underline;
+}
